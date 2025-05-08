@@ -1,6 +1,6 @@
 ---
 title: "Repositories"
 permalink: /repositories/
-layout: tags
+layout: posts
 author_profile: true
 ---

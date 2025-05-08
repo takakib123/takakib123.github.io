@@ -112,5 +112,4 @@ tag_archive:
   type: liquid
   path: /tags/
 
-collections:
-  -publications
+

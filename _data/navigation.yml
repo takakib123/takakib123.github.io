@@ -1,8 +1,8 @@
 main:
   - title: "Projects"
     url: /projects/
-  - title: "Repositories"
-    url: /repositories/
+  - title: "Publications"
+    url: /publications/
   - title: "Blogs"
     url: /blogs/
   - title: "About"

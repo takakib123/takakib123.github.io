@@ -16,8 +16,7 @@
 title: Tanvir Ahmed Khan
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Final-year EEE student at BUET, specializing in Machine Learning, NLP, and Computer Vision. Showcasing academic projects, research interests, and technical blogs.
-  Contact 1906048[at]eee.buet.ac.bd or tanvirahmedkhan0601[at]gmail.com
+  Final-year EEE student at BUET, specializing in Machine Learning, NLP, and Computer Vision. Showcasing academic projects, research interests, and technical blogs. Contact 1906048[at]eee.buet.ac.bd or tanvirahmedkhan0601[at]gmail.com
 twitter_username: username
 github_username: takakib123
 minimal_mistakes_skin: neon
@@ -73,7 +72,9 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/"
-
+    - label: "Email"             # <-- Added this line
+      icon: "fas fa-fw fa-envelope-square"  # <-- Added this line (envelope icon)
+      url: "mailto:1906048[at]eee.buet.ac.bd" # <-- Added this line - REPLACE WITH YOUR EMAIL
 footer:
   links:
     # - label: "Twitter"

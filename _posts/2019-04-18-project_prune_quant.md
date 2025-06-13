@@ -22,4 +22,5 @@ Our proposed method demonstrates significant efficiency gains: we successfully e
 
 For implementation details, code, and further exploration, please visit the project repository:
 
-GitHub: [https://github.com/takakib123/LLaVA_Prune](https://github.com/takakib123/LLaVA_Prune)
+GitHub: [Link](https://github.com/takakib123/LLaVA_Prune)
+Project Report: [Link](https://drive.google.com/file/d/1s8Nqce-ppkr2tM5W_FsB8v1FuY_JSnD_/view?usp=drive_link)

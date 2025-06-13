@@ -7,18 +7,18 @@ This page lists my academic publications.
 
 ---
 
--   **A Multi-Stage Deep Learning Approach to
-Tuberculosis Detection with Explainable Insights**
-    <br>Authors: S Sobhan, A Saha, **T A Khan**, A Zami
-    <br>Venue: NCIM, DUET, Year 2025
-    <br>[Link to Paper] (accepted, yet to publish) | [Link to Code] (tba) | [Link to Project Page] (tba)
-
 -   **Skin Cancer Classification Using Pre-trained CNNs:
 A Transfer Learning Approach Addressing
 Imbalanced Data Challenges**
+    <br>Authors: S Sobhan, A Saha, **T A Khan**, A Zami
+    <br>Venue: 2nd INTERNATIONAL CONFERENCE ON NEXT-GENERATION COMPUTING, IoT AND MACHINE LEARNING. NCIM 2025
+    <br>[Preprint](https://drive.google.com/file/d/1m6aZfxvJNL0uL0-jPTJpeqXfJOI2DARp/view?usp=drive_link)
+
+-   **A Multi-Stage Deep Learning Approach to
+Tuberculosis Detection with Explainable Insights**
     <br>Authors: S Sobhan, A Zami, M Nirob, T Zihan, A Saha, **T A Khan**
-    <br>Venue: NCIM, DUET, Year 2025
-    <br>[Link to Paper] (accepted, yet to publish) | [Link to Code] (tba) | [Link to Project Page] (tba)
+    <br>Venue:2nd INTERNATIONAL CONFERENCE ON NEXT-GENERATION COMPUTING, IoT AND MACHINE LEARNING. NCIM 2025
+    <br>[Preprint](https://drive.google.com/file/d/1YE2FVmikAM_qgXqbg3t1eK6s6yO8h73d/view?usp=drive_link))
 
 <!-- Add more publications below following the same format 
 

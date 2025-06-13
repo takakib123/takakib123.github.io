@@ -11,6 +11,5 @@ Currently, I'm working on:
 
 🧠 Instruction-Tuned Medical Multimodal Models: Fine-tuning large vision-language models (e.g., LLaVA) on custom skin disease datasets to perform classification and instruction-following dialogue generation.
 
-📊 Retriever Evaluation: Analyzing the impact of different retrievers on the retrieval performance of LLMs across diverse topics, with a focus on grounding and factual accuracy.
 
 My goal is to contribute to the development of scalable, trustworthy AI systems, especially for high-stakes domains like healthcare. I'm actively preparing for Ph.D. applications (Fall 2026) and open to research collaborations.

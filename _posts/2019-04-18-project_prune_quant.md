@@ -2,10 +2,7 @@
 title: "Efficient Medical MLLMs: Compressing LLaVA via Pruning and Quantization"
 excerpt_separator: "<!--more-->"
 categories:
-  - AI
-  - Machine Learning
-  - Model Compression
-  - Medical AI
+  - Blog
 tags:
   - MLLM
   - LLaVA

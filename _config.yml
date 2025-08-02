@@ -68,12 +68,12 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/takakib123"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
-    - label: "Email"             # <-- Added this line
-      icon: "fas fa-fw fa-envelope-square"  # <-- Added this line (envelope icon)
-      url: "mailto:1906048@eee.buet.ac.bd" # <-- Added this line - REPLACE WITH YOUR EMAIL
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/citations?hl=en&user=0fdWss0AAAAJ"
+    - label: "Email"             
+      icon: "fas fa-fw fa-envelope-square"  
+      url: "mailto:1906048@eee.buet.ac.bd" 
 footer:
   links:
     # - label: "Twitter"

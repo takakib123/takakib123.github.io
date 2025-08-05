@@ -13,7 +13,8 @@ Imbalanced Data Challenges**
     <br>Authors: S Sobhan, A Saha, **T A Khan**, A Zami
     <br>Venue: 2nd INTERNATIONAL CONFERENCE ON NEXT-GENERATION COMPUTING, IoT AND MACHINE LEARNING. NCIM 2025
     <br>[Preprint](https://drive.google.com/file/d/1m6aZfxvJNL0uL0-jPTJpeqXfJOI2DARp/view?usp=drive_link)
-    ![Methodlogy figure](/../main/assets/images/ham_paper.png)
+    ![Methodlogy figure](/../assets/images/ham_paper.png)
+    
 
 -   **A Multi-Stage Deep Learning Approach to
 Tuberculosis Detection with Explainable Insights**

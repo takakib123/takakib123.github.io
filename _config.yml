@@ -57,7 +57,7 @@ plugins:
 author:
   name   : "Tanvir Ahmed Khan"
   avatar : "/assets/images/prof_pic.jpg"
-  bio    : "Final-year undergraduate student at BUET, specializing in EEE. Passionate about machine learning, NLP, and computer vision, aiming to pursue a Ph.D. in Fall 2026."
+  bio    : "Recent EEE graduate from BUET. Passionate about machine learning, NLP, and computer vision, aiming to pursue a Ph.D. in Fall 2026."
   links:
     #- label: "Website"
     #  icon: "fas fa-fw fa-link"
@@ -94,10 +94,10 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
+      read_time: False
+      comments: False
+      share: False
+      related: False
   # _pages
   - scope:
       path: "_pages"

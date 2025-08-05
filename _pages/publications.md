@@ -15,7 +15,7 @@ Imbalanced Data Challenges**
     <br>[Preprint](https://drive.google.com/file/d/1m6aZfxvJNL0uL0-jPTJpeqXfJOI2DARp/view?usp=drive_link)
     ![Methodlogy figure](/../assets/images/ham_paper.png)
     
-(/../assets/images/ham_paper.png)
+
 -   **A Multi-Stage Deep Learning Approach to
 Tuberculosis Detection with Explainable Insights**
     <br>Authors: S Sobhan, A Zami, M Nirob, T Zihan, A Saha, **T A Khan**

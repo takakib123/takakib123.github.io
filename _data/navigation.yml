@@ -5,3 +5,5 @@ main:
     url: /publications/
   - title: "About"
     url: /about/
+  - title: "CV"
+    url: /../assets/CV_Tanvir_Ahmed_Khan.pdf

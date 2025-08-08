@@ -12,3 +12,5 @@ For implementation details, code, and further exploration, please visit the proj
 
 GitHub: [Link](https://github.com/takakib123/LLaVA_Prune)
 Project Report: [Link](https://drive.google.com/file/d/1s8Nqce-ppkr2tM5W_FsB8v1FuY_JSnD_/view?usp=drive_link)
+
+![Methodlogy figure](https://github.com/takakib123/LLaVA_Prune/blob/main/images/structural_pruning.png)

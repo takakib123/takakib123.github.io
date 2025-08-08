@@ -1,4 +1,5 @@
-{title: "AI-Powered Dermatological Assistant: Bridging Healthcare Gaps Through Multimodal Intelligence"}
+---
+title: "AI-Powered Dermatological Assistant: Bridging Healthcare Gaps Through Multimodal Intelligence"
 ---
 
 Millions lack access to specialized dermatological care due to geographic and technological disparities. We present a novel multimodal framework that combines image-based diagnosis with a visual-question answering pipeline, powered by DINOv2 and a compressed LLaVA model. Our system supports accurate skin disease diagnosis and explanation, optimized for low-resource settings.

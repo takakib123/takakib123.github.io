@@ -1,17 +1,5 @@
 ---
 title: "Efficient Medical MLLMs: Compressing LLaVA via Pruning and Quantization"
-excerpt_separator: "<!--more-->"
-categories:
-  - Blog
-tags:
-  - MLLM
-  - LLaVA
-  - Pruning
-  - Quantization
-  - Efficiency
-  - Large Language Models
-  - 7B Parameters
-  - Healthcare
 ---
 
 Multimodal Large Language Models (MLLMs) hold huge potential for usage in the medical domain, merging visual understanding with language processing capabilities. However, their significant computational costs often necessitate specialized hardware and limit widespread adoption, creating a need for efficient compression techniques.

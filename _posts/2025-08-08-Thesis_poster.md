@@ -15,4 +15,4 @@ Key contributions:
 
 📄 **View Poster Below:**
 
-<iframe src="https://drive.google.com/file/d/1h0yAntx3tMnoANoCapjbQPpRy7AJdf-/preview" width="100%" height="600"></iframe>
+<iframe src="https://drive.google.com/file/d/1PCDcebpmcYRDu3oBCiACuB1o6Ri7yFW9/view" width="100%" height="600"></iframe>

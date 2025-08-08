@@ -3,7 +3,7 @@ permalink: /about/
 title: "About"
 ---
 
-I'm Tanvir Ahmed Khan, a final-year undergraduate student in Electrical and Electronic Engineering at BUET, with a deep interest in machine learning, natural language processing, and computer vision. My research centers around improving the efficiency and reliability of large language and multimodal models, especially in medical domains where accuracy and interpretability are critical.
+I'm Tanvir Ahmed Khan, a Recent EEE graduate from BUET, with a deep interest in machine learning, natural language processing, and computer vision. My research centers around improving the efficiency and reliability of large language and multimodal models, especially in medical domains where accuracy and interpretability are critical.
 
 Currently, I'm working on:
 

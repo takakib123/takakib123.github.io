@@ -15,5 +15,4 @@ Key contributions:
 - Local and global impact potential—especially in under-resourced areas.
 
 📄 **View Poster Below:**
-
-<iframe src="https://drive.google.com/file/d/1PCDcebpmcYRDu3oBCiACuB1o6Ri7yFW9/view" width="100%" height="600"></iframe>
+![Methodlogy figure](/../assets/images/Dermatological_ Assistant-1.png)

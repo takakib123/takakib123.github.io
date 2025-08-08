@@ -20,5 +20,4 @@ This work contributes to:
 - Advancing Bangladesh’s national goals in **food security**, **smart agriculture**, and **technological innovation**.
 
 📄 **View Poster Below:**
-
-<iframe src="https://drive.google.com/file/d/1gy-otVbRxspsIjDkoQY7AE-Ad3I7etI9/view?usp=sharing" width="100%" height="600"></iframe>
+![Methodlogy figure](/../assets/images/Robo_Poster_v1-1.png)

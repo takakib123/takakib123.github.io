@@ -5,8 +5,6 @@
 layout: single
 author_profile: true
 ---
-## 👋 Hi, I'm Tanvir Ahmed Khan
-
 I'm a recent graduate in **Electrical and Electronic Engineering** from **BUET**, passionate about building efficient and trustworthy AI systems. My research focuses on **multimodal learning**, **medical imaging**, and **model compression**—with a strong emphasis on real-world impact and interpretability.
 
 🎯 **Career Goal**: Pursuing a Ph.D. in AI/ML starting Fall 2026.

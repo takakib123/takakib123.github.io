@@ -5,15 +5,21 @@
 layout: single
 author_profile: true
 ---
-👋 Welcome to Tanvir Ahmed Khan's Website
-Recent EEE graduate from BUET | Aspiring Researcher in AI & Multimodal Learning
+# 👋 Hi, I'm Tanvir Ahmed Khan
 
-🔍 What you'll find here:
+I'm a recent graduate in **Electrical and Electronic Engineering** from **BUET**, passionate about building efficient and trustworthy AI systems. My research focuses on **multimodal learning**, **medical imaging**, and **model compression**—with a strong emphasis on real-world impact and interpretability.
 
-🧠 Research Projects – Focused on medical AI, multimodal models, and efficient deep learning
+🎯 **Career Goal**: Pursuing a Ph.D. in AI/ML starting Fall 2026.
 
-📄 Publications & Posters – Peer-reviewed papers and academic posters
+---
 
-💻 Code & Demos – Hands-on implementation of MLLMs, pruning, quantization, and more
+## 🌐 Connect with Me
 
-📫 Contact & CV – Reach out or download my updated CV
+- 🖥️ [Portfolio Website](https://takakib123.github.io/)
+- 💼 [LinkedIn](https://www.linkedin.com/in/tanvir-ahmed-26602a231/)
+- 🧑‍💻 [GitHub](https://github.com/takakib123)
+- ✉️ tanvirahmedkhan0601@gmail.com
+
+---
+
+Thanks for stopping by! Let’s connect and build something impactful 🚀

@@ -5,4 +5,4 @@ permalink: /projects/
 author_profile: true
 ---
 
-[PLACEHOLDER: 1–2 sentence overview of projects.]
+A collection of research projects and academic posters from my graduate and undergraduate work.

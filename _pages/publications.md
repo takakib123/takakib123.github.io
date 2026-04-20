@@ -3,29 +3,30 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
-This page lists my academic publications.
 
 ---
 
--   **Skin Cancer Classification Using Pre-trained CNNs:
-A Transfer Learning Approach Addressing
-Imbalanced Data Challenges**
-    <br>Authors: S Sobhan, A Saha, **T A Khan**, A Zami
-    <br>Venue: 2nd INTERNATIONAL CONFERENCE ON NEXT-GENERATION COMPUTING, IoT AND MACHINE LEARNING. NCIM 2025
-    <br>[Preprint](https://drive.google.com/file/d/1m6aZfxvJNL0uL0-jPTJpeqXfJOI2DARp/view?usp=drive_link)
-    ![Methodlogy figure](/../assets/images/ham_paper.png)
-    
+- **Compression Strategies for Efficient Multimodal LLMs in Medical Contexts**
+  <br>TA Khan, A Saha, IN Swapnil, MA Haque
+  <br>arXiv preprint, 2025
+  <br>[arXiv](https://arxiv.org/abs/2507.21976)
 
--   **A Multi-Stage Deep Learning Approach to
-Tuberculosis Detection with Explainable Insights**
-    <br>Authors: S Sobhan, A Zami, M Nirob, T Zihan, A Saha, **T A Khan**
-    <br>Venue:2nd INTERNATIONAL CONFERENCE ON NEXT-GENERATION COMPUTING, IoT AND MACHINE LEARNING. NCIM 2025
-    <br>[Preprint](https://drive.google.com/file/d/1YE2FVmikAM_qgXqbg3t1eK6s6yO8h73d/view?usp=drive_link)
-    ![Methodlogy figure](/../assets/images/cxr_paper.png)
+- **CLARIFY: A Specialist-Generalist Framework for Accurate and Lightweight Dermatological Visual Question Answering**
+  <br>A Saha, TA Khan, IN Swapnil, MA Haque
+  <br>arXiv preprint, 2025
+  <br>[arXiv](https://arxiv.org/abs/2508.18430)
 
-<!-- Add more publications below following the same format 
+- **GRPO++: Enhancing Dermatological Reasoning under Low Resource Settings**
+  <br>IN Swapnil, A Saha, TA Khan, MA Haque
+  <br>arXiv preprint, 2025
+  <br>[arXiv](https://arxiv.org/abs/2510.01236)
 
--   **[Yet Another Publication Title]**
-    <br>Authors: Your Name
-    <br>Venue, Year
-    <br>[Link to Paper](https://example.com/link-to-another-paper) -->
+- **Skin Cancer Classification Using Pre-trained CNNs: A Transfer Learning Approach Addressing Imbalanced Data Challenges**
+  <br>S Sobhan, A Saha, TA Khan, A Zami
+  <br>2nd International Conference on Next-Generation Computing, IoT and Machine Learning (NCIM), 2025
+  <br>[Preprint](https://drive.google.com/file/d/1m6aZfxvJNL0uL0-jPTJpeqXfJOI2DARp/view?usp=drive_link)
+
+- **A Multi-Stage Deep Learning Approach to Tuberculosis Detection with Explainable Insights**
+  <br>S Sobhan, A Zami, M Ahmed, TM Zihan, TA Khan, A Saha
+  <br>2nd International Conference on Next-Generation Computing, IoT and Machine Learning (NCIM), 2025
+  <br>[Preprint](https://drive.google.com/file/d/1YE2FVmikAM_qgXqbg3t1eK6s6yO8h73d/view?usp=drive_link)

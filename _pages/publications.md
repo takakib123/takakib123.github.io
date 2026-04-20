@@ -24,9 +24,9 @@ author_profile: true
 - **Skin Cancer Classification Using Pre-trained CNNs: A Transfer Learning Approach Addressing Imbalanced Data Challenges**
   <br>S Sobhan, A Saha, TA Khan, A Zami
   <br>2nd International Conference on Next-Generation Computing, IoT and Machine Learning (NCIM), 2025
-  <br>[Preprint](https://drive.google.com/file/d/1m6aZfxvJNL0uL0-jPTJpeqXfJOI2DARp/view?usp=drive_link)
+  <br>[Xplore](https://ieeexplore.ieee.org/document/11160090)
 
 - **A Multi-Stage Deep Learning Approach to Tuberculosis Detection with Explainable Insights**
   <br>S Sobhan, A Zami, M Ahmed, TM Zihan, TA Khan, A Saha
   <br>2nd International Conference on Next-Generation Computing, IoT and Machine Learning (NCIM), 2025
-  <br>[Preprint](https://drive.google.com/file/d/1YE2FVmikAM_qgXqbg3t1eK6s6yO8h73d/view?usp=drive_link)
+  <br>[Xplore](https://ieeexplore.ieee.org/document/11159991)

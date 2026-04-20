@@ -1,0 +1,28 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/air";
+@import "minimal-mistakes";
+
+/* Reduce base font size to match template */
+.page__content {
+  font-size: 0.875em;
+}
+
+.page__content h1 {
+  font-size: 2.2em;
+  margin-bottom: 0.4em;
+}
+
+.page__content h2 {
+  font-size: 1.3em;
+  border-bottom: 1px solid #f2f3f3;
+  padding-bottom: 0.3em;
+}
+
+.page__content li {
+  margin-bottom: 0.6em;
+}

@@ -15,8 +15,8 @@
 # in the templates via {{ site.myvariable }}.
 title: Tanvir Ahmed Khan
 email:
-description: >- # this means to ignore newlines until "baseurl:"
-  Final-year EEE student at BUET, specializing in Machine Learning, NLP, and Computer Vision. Showcasing academic projects, research interests, and technical blogs. 
+description: >-
+  Recent EEE graduate from BUET specializing in machine learning, medical AI, and model compression.
 github_username: takakib123
 minimal_mistakes_skin: air
 search: true
@@ -57,7 +57,7 @@ plugins:
 author:
   name   : "Tanvir Ahmed Khan"
   avatar : "/assets/images/prof_pic.jpg"
-  bio    : "Recent EEE graduate from BUET. Passionate about machine learning, NLP, and computer vision, aiming to pursue a Ph.D. in Fall 2026."
+  bio    : "First-year Ph.D. student at Illinois Institute of Technology. Advised by Prof. Binghui Wang. Research interests: LLM privacy and security."
   links:
     #- label: "Website"
     #  icon: "fas fa-fw fa-link"

@@ -3,11 +3,10 @@ layout: single
 author_profile: false
 ---
 
-<img src="/assets/images/prof_pic.jpg" style="float: right; width: 210px; margin: 0 0 20px 30px; border-radius: 5px;">
+<img src="/assets/images/prof_pic.jpg" style="float: right; width: 150px; margin: 0 0 20px 30px; border-radius: 5px;">
 
-# Tanvir Ahmed Khan
 
-I am a first-year Ph.D. student at Illinois Institute of Technology, advised by [Professor Binghui Wang](https://www.cs.iit.edu/~bwang70/). My research focuses on the privacy and security of large language models.
+I am a first-year Ph.D. student at Illinois Institute of Technology, advised by [Professor Binghui Wang](https://wangbinghui.net/). My research focuses on trustworthy machine learning.
 
 **Research Interests**
 
@@ -19,7 +18,7 @@ I am a first-year Ph.D. student at Illinois Institute of Technology, advised by 
 
 ---
 
-## Publications
+## Works Done Before PhD
 
 - **Compression Strategies for Efficient Multimodal LLMs in Medical Contexts**  
   TA Khan, A Saha, IN Swapnil, MA Haque · arXiv 2025 · [arXiv](https://arxiv.org/abs/2507.21976)
@@ -31,10 +30,10 @@ I am a first-year Ph.D. student at Illinois Institute of Technology, advised by 
   IN Swapnil, A Saha, TA Khan, MA Haque · arXiv 2025 · [arXiv](https://arxiv.org/abs/2510.01236)
 
 - **Skin Cancer Classification Using Pre-trained CNNs: A Transfer Learning Approach Addressing Imbalanced Data Challenges**  
-  S Sobhan, A Saha, TA Khan, A Zami · NCIM 2025 · [Preprint](https://drive.google.com/file/d/1m6aZfxvJNL0uL0-jPTJpeqXfJOI2DARp/view?usp=drive_link)
+  S Sobhan, A Saha, TA Khan, A Zami · NCIM 2025 · [Xplore](https://ieeexplore.ieee.org/document/11160090)
 
 - **A Multi-Stage Deep Learning Approach to Tuberculosis Detection with Explainable Insights**  
-  S Sobhan, A Zami, M Ahmed, TM Zihan, TA Khan, A Saha · NCIM 2025 · [Preprint](https://drive.google.com/file/d/1YE2FVmikAM_qgXqbg3t1eK6s6yO8h73d/view?usp=drive_link)
+  S Sobhan, A Zami, M Ahmed, TM Zihan, TA Khan, A Saha · NCIM 2025 · [Xplore](https://ieeexplore.ieee.org/document/11159991)
 
 ---
 

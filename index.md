@@ -3,7 +3,7 @@ layout: single
 author_profile: false
 ---
 
-<img src="/assets/images/prof_pic.jpg" style="float: right; width: 150px; margin: 0 0 20px 30px; border-radius: 5px;">
+<img src="/assets/images/prof_pic.jpg" style="float: right; width: 250px; margin: 0 0 20px 30px; border-radius: 5px;">
 
 
 I am a first-year Ph.D. student at Illinois Institute of Technology, advised by [Professor Binghui Wang](https://wangbinghui.net/). My research focuses on trustworthy machine learning.

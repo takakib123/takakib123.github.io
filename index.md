@@ -41,7 +41,7 @@ Office: Room 019A Stuart Building,
 
 ---
 
-<p style="text-align: center; font-size: 2.0em; margin-top: 10px;">
+<p style="text-align: center; font-size: 1.6em; margin-top: 10px;">
   <a href="mailto:tkhan17@hawk.illinoistech.edu" style="margin: 0 10px; color: inherit;"><i class="fas fa-fw fa-envelope"></i></a>
   <a href="https://github.com/takakib123" style="margin: 0 10px; color: inherit;"><i class="fab fa-fw fa-github"></i></a>
   <a href="https://www.linkedin.com/in/tanvir-ahmed-26602a231/" style="margin: 0 10px; color: inherit;"><i class="fab fa-fw fa-linkedin"></i></a>

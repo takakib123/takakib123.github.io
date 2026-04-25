@@ -7,7 +7,9 @@ author_profile: false
 
 
 I am a first-year Ph.D. student at Illinois Institute of Technology, advised by [Professor Binghui Wang](https://wangbinghui.net/). My research focuses on trustworthy machine learning.
+
 Office: Room 019A Stuart Building,
+
 10 W 31st St, Chicago, IL 60616, US
 
 **Research Interests**
@@ -39,7 +41,7 @@ Office: Room 019A Stuart Building,
 
 ---
 
-<p style="text-align: center; font-size: 1.6em; margin-top: 10px;">
+<p style="text-align: center; font-size: 2.0em; margin-top: 10px;">
   <a href="mailto:tkhan17@hawk.illinoistech.edu" style="margin: 0 10px; color: inherit;"><i class="fas fa-fw fa-envelope"></i></a>
   <a href="https://github.com/takakib123" style="margin: 0 10px; color: inherit;"><i class="fab fa-fw fa-github"></i></a>
   <a href="https://www.linkedin.com/in/tanvir-ahmed-26602a231/" style="margin: 0 10px; color: inherit;"><i class="fab fa-fw fa-linkedin"></i></a>

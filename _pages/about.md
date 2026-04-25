@@ -3,8 +3,9 @@ permalink: /about/
 title: "About"
 ---
 
-I hold a B.Sc. in Electrical and Electronic Engineering from Bangladesh University of Engineering and Technology (BUET). I am currently a first-year Ph.D. student at Illinois Institute of Technology, where I am advised by Professor Binghui Wang and working on privacy and security in large language models.
-
+I am currently a first-year Ph.D. student at Illinois Institute of Technology, where I am working on privacy and security in machine learning.
+Office: Room 019A Stuart Building,
+10 W 31st St, Chicago, IL 60616, US
 ---
 
 ## Technical Snapshot

@@ -18,12 +18,14 @@ email:
 description: >-
   Recent EEE graduate from BUET specializing in machine learning, medical AI, and model compression.
 github_username: takakib123
-minimal_mistakes_skin: neon
+
 search: true
 
 # Build settings
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
+
+minimal_mistakes_skin: neon
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show

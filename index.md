@@ -7,7 +7,9 @@ author_profile: false
 
 
 I am a first-year Ph.D. student at Illinois Institute of Technology, advised by [Professor Binghui Wang](https://wangbinghui.net/). My research focuses on trustworthy machine learning.
+
 Office: Room 019A Stuart Building,
+
 10 W 31st St, Chicago, IL 60616, US
 
 **Research Interests**

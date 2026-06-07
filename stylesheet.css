@@ -1,0 +1,622 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* Add smooth scrolling to the root HTML element */
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  /* Light theme palette */
+  --background-color: #ffffff;
+  --text-color: #1f2937;        /* gray-800 */
+  --muted-text-color: #4b5563;  /* gray-600 */
+  --heading-color: #111827;     /* gray-900 */
+  --link-color: #7AA51F;        /* green */
+  --link-hover-color: #778a35;  /* hover green */
+  --border-color: #e5e7eb;      /* gray-200 */
+  --banner-bg-color: #ffffff;
+}
+
+body {
+  margin: 0;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: 'PT Serif', serif;
+  line-height: 1.6;
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--link-hover-color);
+  text-decoration: underline;
+}
+
+/* Navigation styles */
+.nav-container {
+  background-color: var(--banner-bg-color);
+  padding: 1.25rem 0;  /* Between 1rem and 1.5rem */
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.nav-content {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-brand {
+  font-family: 'PT Serif', serif;
+  font-size: 2rem;
+  font-weight: 700;
+  font-style: italic;
+  color: var(--heading-color);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.nav-brand:hover {
+  color: var(--link-hover-color);
+}
+
+.nav-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav-link {
+  font-family: 'Alegreya', serif;
+  font-size: 1.1rem;
+  color: var(--muted-text-color);
+  text-decoration: none;
+  transition: color 0.2s ease;
+  position: relative;
+}
+
+.nav-link:hover {
+  color: var(--link-hover-color);
+}
+
+.nav-link + .nav-link {
+  padding-left: 1rem;
+  margin-left: 0.75rem;
+}
+
+/* Section headings */
+heading {
+  font-family: 'PT Serif', serif;
+  font-size: 1.85rem;  /* Reduced from 2rem */
+  font-weight: 700;
+  color: var(--heading-color);
+  margin-bottom: 2rem;
+  display: block;
+}
+
+/* Bio section styles */
+.bio-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 100px;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 4rem 20px;
+}
+
+.bio-image {
+  flex-shrink: 0;
+}
+
+.bio-content {
+  max-width: 600px;  /* Increased from 500px */
+  margin-left: 0;
+  margin-right: 0;
+  flex-grow: 1;
+}
+
+.bio-content p {
+  color: var(--text-color);
+  margin-bottom: 1rem;
+  line-height: 1.8;  /* Increased line height for better readability */
+}
+
+.bio-content a {
+  color: var(--link-color);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.bio-content a:hover {
+  color: var(--link-hover-color);
+}
+
+/* Profile picture flip animation */
+.profile-container {
+  perspective: 1000px;
+  width: 280px;
+  height: 280px;
+}
+
+.profile-flipper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  transform-origin: center;  /* Added explicit transform origin */
+  cursor: pointer;
+}
+
+.profile-container:hover .profile-flipper {
+  transform: rotateY(180deg);
+}
+
+.profile-front,
+.profile-back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profile-front {
+  z-index: 2;
+  transform: rotateY(0deg);
+}
+
+.profile-back {
+  transform: rotateY(180deg);
+}
+
+.profile-front img,
+.profile-back img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;  /* Added to prevent any spacing issues */
+}
+
+/* CV and Scholar Links Section */
+.cv-scholar-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+  justify-content: center;
+}
+
+.cv-scholar-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--link-color);
+  font-family: 'PT Serif', serif;
+  font-size: 1.1rem;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.cv-scholar-link:hover {
+  color: var(--link-hover-color);
+}
+
+.cv-scholar-link i {
+  font-size: 1.25rem;
+}
+
+.cv-scholar-separator {
+  color: var(--text-color);
+  margin: 0 0.25rem;
+}
+
+/* Publications Grid Layout */
+.publications-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+#publications {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 4rem 20px;
+}
+
+#publications heading {
+  display: block;
+  margin-bottom: 2rem;
+}
+
+.publication-item {
+  position: relative;
+  aspect-ratio: 1;
+  overflow: hidden;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+/* Add data attributes for project URLs */
+.publication-item[data-project-url]:hover {
+  cursor: pointer;
+}
+
+.publication-item[data-project-url]::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.publication-item[data-project-url]:hover::after {
+  z-index: 1;
+}
+
+.publication-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  transition: transform 0.2s ease;
+  background-color: #ffffff;
+}
+
+/* Specific styling for GIF images */
+.publication-image[src$=".gif"] {
+  object-fit: contain;
+  background-color: white;
+  width: auto;
+  height: 100%;
+  margin: 0;
+  display: block;
+  border: none;
+  border-radius: 0;
+  padding: 0;
+}
+
+/* Specific styling for PNG images */
+.publication-image[src$=".png"] {
+  object-fit: contain;
+  background-color: white;
+  width: auto;
+  height: 100%;
+  margin: 0;
+  display: block;
+  border: none;
+  border-radius: 0;
+  padding: 0;
+}
+
+.publication-item:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.publication-item:hover .publication-image {
+  transform: scale(1.05);  /* Reduced from 1.1 to 1.05 for smoother animation */
+}
+
+.publication-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.98);
+  padding: 15px;
+  transform: translateY(100%);
+  transition: transform 0.2s ease;
+  overflow-y: auto;
+  z-index: 10;
+  cursor: auto;  /* Changed cursor to default when hovering content */
+}
+
+.publication-item:hover .publication-content {
+  transform: translateY(0);
+  overflow-y: auto;
+  pointer-events: auto;  /* Enable interaction with content */
+}
+
+/* Add hover state for the content itself */
+.publication-content:hover {
+  overflow-y: auto;
+  pointer-events: auto;
+}
+
+.publication-title {
+  font-family: 'PT Serif', serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--heading-color);
+  margin-bottom: 10px;
+}
+
+.publication-authors {
+  font-size: 14px;
+  color: var(--text-color);
+  margin-bottom: 8px;
+}
+
+/* Ensure this style takes precedence */
+.publication-content .publication-authors strong {
+  font-weight: 700;
+  color: var(--text-color) !important;
+}
+
+/* Publications venue color */
+.publication-venue {
+  font-size: 14px;
+  color: #FD971F;
+  font-style: italic;
+  margin-bottom: 12px;
+}
+
+.presentation-highlight {
+  color: #FF6188;
+  font-weight: 500;
+}
+
+.publication-links {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.publication-links a {
+  color: var(--link-color);
+  text-decoration: none;
+  font-size: 14px;
+  padding: 4px 8px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.publication-links a:hover {
+  background-color: var(--link-color);
+  color: #ffffff;
+  border-color: var(--link-color);
+}
+
+.publication-tbd {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background: var(--banner-bg-color);
+  border: none;  /* Removed the dashed border */
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+  padding: 0;
+  margin: 0;
+}
+
+.publication-tbd:hover {
+  opacity: 1;
+}
+
+.publication-tbd i {
+  font-size: 48px;
+  color: var(--link-color);
+  margin-bottom: 15px;
+}
+
+.publication-tbd span {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 20px;
+  color: var(--link-color);
+}
+
+.publication-content p {
+  font-size: 0.9rem;  /* Reduced from default size */
+  margin: 0.5rem 0;
+  line-height: 1.4;
+}
+
+/* Service Section */
+#service {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 4rem 20px;
+}
+
+#service heading {
+  display: block;
+  margin-bottom: 2rem;
+  color: var(--heading-color);
+}
+
+#service p {
+  margin: 0.5rem 0;
+  color: var(--text-color);
+}
+
+/* Service dropdown styles */
+.service-dropdown {
+  margin-bottom: 1rem;
+}
+
+.dropdown-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 0;
+  cursor: pointer;
+  transition: color 0.2s ease;
+  user-select: none;
+}
+
+.dropdown-header:hover {
+  color: var(--link-hover-color);
+}
+
+.dropdown-header span {
+  font-weight: 600;
+  color: var(--text-color);
+}
+
+.dropdown-arrow {
+  color: var(--muted-text-color);
+  transition: transform 0.2s ease;
+}
+
+.dropdown-arrow.rotated {
+  transform: rotate(90deg);
+}
+
+.dropdown-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.dropdown-content.expanded {
+  max-height: 200px;
+}
+
+.dropdown-content p {
+  margin: 0;
+  padding: 4px 0 4px 16px;
+}
+
+/* Social icons */
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.social-icon {
+  font-size: 24px;
+  color: var(--link-color);
+  transition: color 0.2s;
+  text-decoration: none;
+}
+
+.social-icon:hover {
+  color: var(--link-hover-color);
+}
+
+.social-icon i {
+  width: 24px;
+  height: 24px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Twitter bird icon specific styling */
+.social-icon .fa-twitter {
+  color: var(--link-color);
+}
+
+.social-icon:hover .fa-twitter {
+  color: var(--link-hover-color);
+}
+
+/* Section styles */
+section {
+  padding: 4rem 0;
+  scroll-margin-top: 60px;
+}
+
+/* Theme selector styling */
+.theme-selector {
+  background-color: var(--banner-bg-color);
+  border: 1px solid var(--border-color);
+  color: var(--text-color);
+}
+
+/* Code blocks and highlights */
+code {
+  background-color: #f3f4f6; /* gray-100 */
+  color: var(--text-color);
+  padding: 2px 5px;
+  border-radius: 3px;
+}
+
+.image-gallery {
+  max-width: 1200px;
+  margin: 3rem auto 0 auto;  /* Add top margin within bio section, remove bottom margin */
+  padding: 0 20px;  /* Remove vertical padding */
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.gallery-item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0 15px;
+  max-width: 300px;
+}
+
+.gallery-image {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  margin-bottom: 1rem;
+  background-color: white;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+.gallery-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.gallery-label {
+  color: var(--text-color);
+  font-size: 15px;
+  font-weight: 600;
+  font-family: 'Lato', sans-serif;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.gallery-date {
+  color: var(--hover-color);
+  font-size: 13px;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.publication-item:last-child {  /* Target the placeholder item */
+  padding: 0;  /* Remove padding for the placeholder item */
+  background-color: var(--banner-bg-color);  /* Set background to match content */
+}

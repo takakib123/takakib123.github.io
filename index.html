@@ -1,0 +1,317 @@
+<!DOCTYPE HTML>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+ 
+  <title>Aaron Inbum Park</title>
+ 
+  <meta name="author" content="Jon Barron">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+	<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>">
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="nav-container">
+    <div class="nav-content">
+      <a href="#" class="nav-brand">Aaron Inbum Park</a>
+      <div class="nav-links">
+        <a href="#bio" class="nav-link">Bio</a>
+        <a href="#publications" class="nav-link">Research</a>
+        <a href="#service" class="nav-link">Service</a>
+        <a href="#contact" class="nav-link">Contact</a>
+        <a href="personal.html" class="nav-link">Personal</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="main-content">
+    <!-- Bio Section -->
+    <section id="bio">
+      <div class="bio-container">
+        <div class="bio-image">
+          <div class="profile-container">
+            <div class="profile-flipper">
+              <div class="profile-front">
+                <img style="width:100%;max-width:100%" alt="profile photo" src="images/headshot-front.png">
+              </div>
+              <div class="profile-back">
+                <img style="width:100%;max-width:100%" alt="profile photo back" src="images/headshot-back.png">
+              </div>
+            </div>
+          </div>
+          <div class="cv-scholar-links">
+            <a href="data/resume.pdf" class="cv-scholar-link">
+              <i class="fas fa-file-alt"></i>
+              <span>CV</span>
+            </a>
+            <span class="cv-scholar-separator">|</span>
+            <a href="https://scholar.google.com/citations?user=E82y1M8AAAAJ&hl=en" class="cv-scholar-link">
+              <i class="fas fa-graduation-cap"></i>
+              <span>Google Scholar</span>
+            </a>
+          </div>
+        </div>
+        <div class="bio-content">
+          <p>I am a first-year CS Ph.D. student at the <a href="https://cs.umd.edu/grad">University of Maryland</a>, advised by Prof. <a href="https://www.cs.umd.edu/~abhinav/">Abhinav Shrivastava</a>.</p>
+          <p>Previously, I graduated with an M.S. at the University of Michigan, where I was fortunate to be advised by Prof. <a href="https://andrewowens.com">Andrew Owens</a> and closely worked with <a href="https://dangeng.github.io">Daniel Geng</a> and <a href="https://www.connellybarnes.com/work/">Connelly Barnes</a>.
+            During my bachelor's degree at Seoul National University, I worked with Prof. <a href="https://sites.google.com/view/jungdam/home">Jungdam Won</a>, Prof. <a href="https://icl.snu.ac.kr/pi">Se Young Chun</a>, and Prof. <a href="https://3d.snu.ac.kr/members/">Young Min Kim</a>.</p>
+          <p>My research interests lie in the intersection of computer vision and graphics, especially leveraging generative models for compositional image/shape generation or motion synthesis.</p>
+        </div>
+      </div>
+
+      <!-- Image Gallery Section -->
+      <table style="width:100%;max-width:900px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+        <tr>
+          <td style="text-align:center">
+            <table style="margin:0 auto;border-spacing:20px;border:none">
+              <tr>
+                <td style="text-align:center;vertical-align:top">
+                  <img src="images/icons/umd-logo.svg" alt="University of Maryland Logo" class="gallery-image">
+                  <div class="gallery-text">
+                    <div class="gallery-label">University of Maryland<br>Ph.D. in CS</div>
+                    <div class="gallery-date">2025 - Present</div>
+                  </div>
+                </td>
+                <td style="text-align:center;vertical-align:top">
+                  <img src="images/icons/umich-logo.svg" alt="University of Michigan Logo" class="gallery-image">
+                  <div class="gallery-text">
+                    <div class="gallery-label">University of Michigan<br>M.S. in ECE</div>
+                    <div class="gallery-date">2023 - 2025</div>
+                  </div>
+                </td>
+                <td style="text-align:center;vertical-align:top">
+                  <img src="images/icons/snu-logo.svg" alt="Seoul National University Logo" class="gallery-image">
+                  <div class="gallery-text">
+                    <div class="gallery-label">Seoul National University<br>B.S. in ECE</div>
+                    <div class="gallery-date">2017 - 2023</div>
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </section>
+
+    <!-- Publications Section -->
+    <section id="publications">
+      <heading>Research</heading>
+      
+      <div class="publications-grid">
+        <!-- Factorized Diffusion -->
+        <div class="publication-item" data-project-url="https://dangeng.github.io/factorized_diffusion/">
+          <img src="images/FD.gif" class="publication-image" alt="Factorized Diffusion">
+          <div class="publication-content">
+            <div class="publication-title">Factorized Diffusion: Perceptual Illusions by Noise Decomposition</div>
+            <div class="publication-authors">Daniel Geng*, <span style="color: #000000; font-weight: 700;">Inbum Park</span>*, Andrew Owens</div>
+            <div class="publication-venue">European Conference on Computer Vision (ECCV), 2024</div>
+            <p>Another zero-shot framework that is able to generate various perceptual illusions like hybrid images, by controlling linear components of an image.</p>
+            <div class="publication-links">
+              <a href="https://arxiv.org/pdf/2404.11615.pdf">paper</a>
+              <a href="https://arxiv.org/abs/2404.11615">arXiv</a>
+              <a href="https://dangeng.github.io/factorized_diffusion/">project</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Visual Anagrams -->
+        <div class="publication-item" data-project-url="https://dangeng.github.io/visual_anagrams/">
+          <img src="images/VA.gif" class="publication-image" alt="Visual Anagrams">
+          <div class="publication-content">
+            <div class="publication-title">Visual Anagrams: Generating Multi-View Optical Illusions with Diffusion Models</div>
+            <div class="publication-authors">Daniel Geng, <span style="color: #000000; font-weight: 700;">Inbum Park</span>, Andrew Owens</div>
+            <div class="publication-venue">Conference on Computer Vision and Pattern Recognition (CVPR), 2024 <span class="presentation-highlight">(Oral)</span></div>
+            <p>A simple, zero-shot method for generating multi-view optical illusions, which are images that change their appearance or identity upon a transformation.</p>
+            <div class="publication-links">
+              <a href="https://arxiv.org/pdf/2311.17919.pdf">paper</a>
+              <a href="https://arxiv.org/abs/2311.17919">arXiv</a>
+              <a href="https://dangeng.github.io/visual_anagrams/">project</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Robust Flow -->
+        <div class="publication-item" data-project-url="https://smhongok.github.io/robustness.html">
+          <img src="images/robustflow.gif" class="publication-image" alt="Robust Flow">
+          <div class="publication-content">
+            <div class="publication-title">On the Robustness of Normalizing Flows for Inverse Problems in Imaging</div>
+            <div class="publication-authors">Seongmin Hong, <span style="color: #000000; font-weight: 700;">Inbum Park</span>, Se Young Chun</div>
+            <div class="publication-venue">International Conference on Computer Vision (ICCV), 2023</div>
+            <p>A study on erroneous images occasionally generated from flow-based models for inverse problems in imaging.</p>
+            <div class="publication-links">
+              <a href="https://openaccess.thecvf.com/content/ICCV2023/papers/Hong_On_the_Robustness_of_Normalizing_Flows_for_Inverse_Problems_in_ICCV_2023_paper.pdf">paper</a>
+              <a href="http://arXiv.org/abs/2212.04319">arXiv</a>
+              <a href="https://smhongok.github.io/robustness.html">project</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Text2PointCloud -->
+        <div class="publication-item" data-project-url="https://www.youtube.com/watch?v=aGDaKHKv1Xc">
+          <img src="images/txt2pc.png" class="publication-image" alt="Text2PointCloud">
+          <div class="publication-content">
+            <div class="publication-title">Text2PointCloud: Text-Driven Stylization for Sparse PointCloud</div>
+            <div class="publication-authors">Inwoo Hwang, Hyeonwoo Kim, Donggeun Lim, <span style="color: #000000; font-weight: 700;">Inbum Park</span>, Young Min Kim</div>
+            <div class="publication-venue">Eurographics (Short Papers), 2023</div>
+            <p>A framework that stylizes and upsamples an uncolored, sparse pointcloud given a text description to render a high-quality 3D output.</p>
+            <div class="publication-links">
+              <a href="https://diglib.eg.org/xmlui/handle/10.2312/egs20231007">paper</a>
+              <a href="https://www.youtube.com/watch?v=aGDaKHKv1Xc">video</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- CGCA -->
+        <div class="publication-item" data-project-url="https://github.com/96lives/gca">
+          <img src="images/cgca.gif" class="publication-image" alt="CGCA">
+          <div class="publication-content">
+            <div class="publication-title">Probabilistic Implicit Scene Completion</div>
+            <div class="publication-authors">Dongsu Zhang, Changwoon Choi, <span style="color: #000000; font-weight: 700;">Inbum Park</span>, Young Min Kim</div>
+            <div class="publication-venue">International Conference on Learning Representations (ICLR), 2022 <span class="presentation-highlight">(Spotlight)</span></div>
+            <p>A probabilistic approach to shape completion and scene reconstruction using 3D implicit representations.</p>
+            <div class="publication-links">
+              <a href="https://openreview.net/forum?id=BnQhMqDfcKG">paper</a>
+              <a href="https://arxiv.org/abs/2204.01264">arXiv</a>
+              <a href="https://github.com/96lives/gca">code</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- TBD Placeholder -->
+        <div class="publication-item">
+          <div class="publication-tbd">
+            <i class="fas fa-flask"></i>
+            <span>Coming Soon</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Spacer -->
+    <div style="margin-bottom: 10vh;"></div>
+
+    <!-- Service Section -->
+    <section id="service">
+      <heading>Service</heading>
+      
+      <div class="service-dropdown">
+        <div class="dropdown-header" onclick="toggleDropdown('teaching')">
+          <span>Teaching</span>
+          <i class="fas fa-chevron-right dropdown-arrow" id="teaching-arrow"></i>
+        </div>
+        <div class="dropdown-content" id="teaching-content">
+          <p>&#x2022; CMSC250: Discrete Structures (Fall 2025)</p>
+        </div>
+      </div>
+
+      <div class="service-dropdown">
+        <div class="dropdown-header" onclick="toggleDropdown('reviewer')">
+          <span>Reviewer</span>
+          <i class="fas fa-chevron-right dropdown-arrow" id="reviewer-arrow"></i>
+        </div>
+        <div class="dropdown-content" id="reviewer-content">
+          <p>&#x2022; SIGGRAPH 2025</p>
+          <p>&#x2022; CVPR 2025</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+        <tbody>
+          <tr>
+            <td style="padding:20px;text-align:center">
+              <heading>Contact</heading>
+              <div class="social-links">
+                <a href="mailto:ibpark@umd.edu" class="social-icon" title="Email">
+                  <i class="fas fa-envelope"></i>
+                </a>
+                <a href="https://github.com/inbumpark" class="social-icon" title="GitHub">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/aaron-inbum-park-9803a91aa/" class="social-icon" title="LinkedIn">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://x.com/invernopark/" class="social-icon" title="Twitter">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Footer -->
+    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+      <tbody>
+        <tr>
+          <td style="padding:20px">
+            <p style="text-align:right;font-size:small;">
+              Designed with Cursor Pro by myself</a><br>
+              Last updated Sep 2025
+            </p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Publication items click handler
+      const publications = document.querySelectorAll('.publication-item[data-project-url]');
+      
+      publications.forEach(pub => {
+        pub.addEventListener('click', function(e) {
+          // Only handle click if we're hovering over the publication
+          if (this.matches(':hover')) {
+            const projectUrl = this.getAttribute('data-project-url');
+            // Don't trigger if clicking on a link inside publication-links
+            if (!e.target.closest('.publication-links')) {
+              window.open(projectUrl, '_blank');
+            }
+          }
+        });
+      });
+
+      // Smooth scroll handler for navigation links
+      document.querySelectorAll('.nav-links a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+          const targetId = this.getAttribute('href');
+          const targetElement = document.querySelector(targetId);
+          
+          if (targetElement) {
+            targetElement.scrollIntoView({
+              behavior: 'smooth',
+              block: 'start'
+            });
+            
+            // Update URL without jumping
+            history.pushState(null, '', targetId);
+          }
+        });
+      });
+    });
+
+    // Dropdown toggle function
+    function toggleDropdown(dropdownId) {
+      const content = document.getElementById(dropdownId + '-content');
+      const arrow = document.getElementById(dropdownId + '-arrow');
+      
+      if (content.classList.contains('expanded')) {
+        content.classList.remove('expanded');
+        arrow.classList.remove('rotated');
+      } else {
+        content.classList.add('expanded');
+        arrow.classList.add('rotated');
+      }
+    }
+  </script>
+</body>
+
+</html>
